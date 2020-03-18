@@ -8,7 +8,7 @@ namespace Employeeclas
         {
             Console.WriteLine("EMPLOYEE INVENTORY FOR THE RESTAURANT");
             Console.WriteLine("*************************************");
-            Console.Write("ENTER THE NUMBER OF EMPLOYEE : ");
+            Console.WriteLine("ENTER THE NUMBER OF EMPLOYEE : ");
           
             int n = Convert.ToInt32(Console.ReadLine());
             Employee[] salary = new Employee[n];   //Instantiate a variable of type Employee
