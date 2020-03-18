@@ -21,11 +21,11 @@ namespace Employeeclas
 
                 Console.WriteLine("Employee ID : {0}", i + 1);
 
-                Console.Write("Employee Name :");
+                Console.WriteLine("Employee Name :");
 
                 salary[i].EmployeeName = Console.ReadLine();
 
-                Console.Write("Monthly Salary :");
+                Console.WriteLine("Monthly Salary :");
 
                 salary[i].Salary = Convert.ToDouble(Console.ReadLine());
 
@@ -37,7 +37,7 @@ namespace Employeeclas
 
             Console.WriteLine("----------------------------------------");
 
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++) // 
 
             {
 
