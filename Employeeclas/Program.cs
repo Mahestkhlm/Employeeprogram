@@ -11,7 +11,7 @@ namespace Employeeclas
             Console.Write("ENTER THE NUMBER OF EMPLOYEE : ");
           
             int n = Convert.ToInt32(Console.ReadLine());
-            Employee[] salary = new Employee[n]; 
+            Employee[] salary = new Employee[n];   //Instantiate a variable of type Employee
 
             for (int i = 0; i < n; i++)
 
