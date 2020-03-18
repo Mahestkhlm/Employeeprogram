@@ -33,9 +33,9 @@ namespace Employeeclas
 
             }
             // Prints the Employee details in the console 
-            Console.WriteLine("Employee ID\tName\tMonthlysalary");
+            Console.WriteLine("Employee ID\tEmployeeName\tMonthlysalary");
 
-            Console.WriteLine(".................................");
+            Console.WriteLine("----------------------------------------");
 
             for (int i = 0; i < n; i++)
 
